@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>3カラムレイアウト</title>
+<style type="text/css">
+*{
+  margin:0;
+  padding:0;
+}
+body{
+  background-color:#FF9900;
+}
+p{
+  padding: 10px;
+}
+#container{
+  width:800px;
+  margin:30px auto;
+  background-color:#ccc;
+}
+#header{
+  background-image: url(https://no1s.biz/kenshu/image/layout1-header.png);
+  height: 150px;
+  text-align:center;
+  line-height:150px;
+}
+#contents{
+  overflow: hidden;
+}
+#inner-contents{
+  width:580px;
+  background:#f00;
+  border:#f00 3px solid;
+  float:left;
+  color: #ffffff;
+}
+#right-sidebar{
+  background-color:#00f;
+  width:200px;
+  float:right;
+  color: #ffffff;
+}
+#left-sidebar{
+  background-color:#ff0;
+  width:200px;
+  float:left;
+}
+#main{
+  background-color:#0f0;
+  width:360px;
+  float:right;
+}
+#footer{
+  padding: 10px 0;
+  background-color:#f0f;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+  <div id="container">
+    <div id="header">サイト名</div>
+    <div id="contents">
+      <div id="inner-contents">
+        <div id="main">
+          <p>メインコンテンツ。メインコンテンツ。メインコンテンツ。</p>
+          <p>メインコンテンツ。メインコンテンツ。メインコンテンツ。</p>
+          <p>メインコンテンツ。メインコンテンツ。メインコンテンツ。</p>
+          <p>メインコンテンツ。メインコンテンツ。メインコンテンツ。</p>
+        </div>
+        <div id="left-sidebar">
+          <p>左側サイドバー。左側サイドバー。左側サイドバー。左側サイドバー。</p>
+          <p>左側サイドバー。左側サイドバー。左側サイドバー。左側サイドバー。</p>
+        </div>
+      </div>
+      <div id="right-sidebar">
+        <p>右側サイドバー。右側サイドバー。右側サイドバー。右側サイドバー。</p>
+        <p>右側サイドバー。右側サイドバー。右側サイドバー。右側サイドバー。</p>
+      </div>
+    </div>
+    <div id="footer">サイト名<br>キャッチコピー<br>All rights reserved by XXX</div>
+  </div>
+  </body>
+</html>
