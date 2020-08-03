@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>work10</title>
+<style type="text/css">
+body{
+    background-color: pink;
+}
+#container{
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+}
+h1{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+#description{
+    padding: 10px;
+    background-color: #FFFF66;
+    border: 2px solid #FF6600;
+}
+dl{
+    margin: 20px;
+}
+dt{
+    padding: 10px;
+    background-color: #FFCCFF;
+    border-left: 7px solid #FF0066;
+    border-bottom: 1px solid #FF0066;
+    font-weight: bold;
+    color: #FF0066;
+}
+dd{
+    padding: 15px;
+    background-color: lavender;
+    margin: 10px 0;
+}
+</style>
+</head>
+<body>
+  <div id="container">
+    <h1>Java開発のPlayFramework</h1>
+    <p id="description">「Play framework」は、サーバサイドJavaとScalaのためのMVCフレームワークです。</p>
+    <p id="subtitle"></p>
+    <dl>
+      <dt>設定より規約</dt>
+      <dd>いままでのJavaのWebフレームワークはXMLなどの設定ファイルを中心に駆動する仕組みでした。「設定より規約」とは、フレームワークで一定のルールを定め、それに従うことで設定ファイルを書かないでも動くような仕組みを提供します</dd>
+      <dt>繰り返しを避ける</dt>
+      <dd>「繰り返しを避ける」とは、「1つのことを表すのに、記述個所を1つに限定する」という考え方です。皆さん意識しているのですが、意識するだけでは難しく、どうしても重複コードを書いてしまいます。コードを重複させてしまった場合、どう重複のないコードに軌道修正できるかが大切です。つまり、リファクタリングしやすいフレームワークであることが重要です</dd>
+    </dl>
+  </div>
+</body>
+</html>
