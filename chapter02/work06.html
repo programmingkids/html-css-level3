@@ -4,24 +4,70 @@
 <meta charset="utf-8">
 <title>work06</title>
 <style type="text/css">
-p {
-    margin: 10px;
+body, div{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #F5F5F5;
+}
+h1{
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+h1 .main-title{
+    border-bottom: 2px solid orange;
+    font-size: 26px;
+    color: #F4A460;
+}
+.box{
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px dashed orange;
+    position: relative;
+}
+.sub-title{
+    font-size: 22px;
+    font-weight: bold;
+    color: #FF4500;
+}
+.description{
+    margin-top:20px;
+    font-size: 16px;
+}
+.news{
     padding: 10px;
-    border: 1px solid #ff0000;
-}
-#box2{
-    display: none;
-}
-#box4{
-    visibility: hidden;
+    background-color: #FF1493;
+    color: white;
+    position: absolute;
+    top: 0;
+    right:0;
 }
 </style>
 </head>
 <body>
-  <p id="box1">先頭の段落</p>
-  <p id="box2">2番目の段落は表示されません。領域は確保されません（display: none）</p>
-  <p id="box3">3番目の段落</p>
-  <p id="box4">4番目の段落は表示されません。領域は確保されます（visibility: hidden）</p>
-  <p id="box5">5番目の段落</p>
+    <div id="container">
+        <h1><span class="main-title">おすすめのリゾート地</span></h1>
+        <div class="box">
+            <div class="sub-title">バリ島</div>
+            <div class="description">
+                バリ島インドネシアの島です。東南アジア有数の観光で有名な島です。
+                大自然に囲まれた島であり、美しいビーチ、豊かな山があります。
+                寺院、伝統的な舞踊などたくさんの見どころにあふれた島です
+            </div>
+            <div class="news">新着情報</div>
+        </div>
+        <div class="box">
+            <div class="sub-title">セブ島</div>
+            <div class="description">
+                セブ島とはフィリピンの島です。
+                白砂のビーチ、きれいな山々で知られる美しい島です。
+                美しいビーチ、きれいな海でのダイビング、見どころいっぱいの高級リゾート地です
+            </div>
+            <div class="news">おすすめ</div>
+        </div>
+    </div>
 </body>
 </html>
